@@ -14,6 +14,9 @@
 		6F20E0E0238A95D600475689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0DF238A95D600475689 /* Assets.xcassets */; };
 		6F20E0E3238A95D600475689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0E1238A95D600475689 /* LaunchScreen.storyboard */; };
 		6F20E0EB238AC49400475689 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20E0EA238AC49400475689 /* SearchResult.swift */; };
+		6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0EC238AF73000475689 /* SearchResultCell.xib */; };
+		6F20E0EF238AFD2E00475689 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */; };
+		6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0F0238B022400475689 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		6F20E0E2238A95D600475689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F20E0E4238A95D600475689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F20E0EA238AC49400475689 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		6F20E0EC238AF73000475689 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		6F20E0F0238B022400475689 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,11 @@
 				6F20E0D6238A95D300475689 /* AppDelegate.swift */,
 				6F20E0D8238A95D300475689 /* SceneDelegate.swift */,
 				6F20E0DA238A95D300475689 /* SearchViewController.swift */,
+				6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */,
 				6F20E0EA238AC49400475689 /* SearchResult.swift */,
 				6F20E0DC238A95D300475689 /* Main.storyboard */,
+				6F20E0EC238AF73000475689 /* SearchResultCell.xib */,
+				6F20E0F0238B022400475689 /* NothingFoundCell.xib */,
 				6F20E0DF238A95D600475689 /* Assets.xcassets */,
 				6F20E0E1238A95D600475689 /* LaunchScreen.storyboard */,
 				6F20E0E4238A95D600475689 /* Info.plist */,
@@ -130,6 +139,8 @@
 			files = (
 				6F20E0E3238A95D600475689 /* LaunchScreen.storyboard in Resources */,
 				6F20E0E0238A95D600475689 /* Assets.xcassets in Resources */,
+				6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */,
+				6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */,
 				6F20E0DE238A95D300475689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +156,7 @@
 				6F20E0D7238A95D300475689 /* AppDelegate.swift in Sources */,
 				6F20E0EB238AC49400475689 /* SearchResult.swift in Sources */,
 				6F20E0D9238A95D300475689 /* SceneDelegate.swift in Sources */,
+				6F20E0EF238AFD2E00475689 /* SearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
