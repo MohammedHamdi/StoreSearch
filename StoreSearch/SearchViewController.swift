@@ -26,6 +26,9 @@ class SearchViewController: UIViewController {
         
         cellNib = UINib(nibName: Tableview.CellIdentifiers.nothingFoundCell, bundle: nil)
         tableView.register(cellNib, forCellReuseIdentifier: Tableview.CellIdentifiers.nothingFoundCell)
+        
+        searchBar.searchTextField.backgroundColor = .white
+        searchBar.becomeFirstResponder()
     }
 
     struct Tableview {

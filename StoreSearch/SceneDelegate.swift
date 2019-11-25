@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -18,6 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        customizeAppearance()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -49,5 +52,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+    // MARK:- Helper Methods
+    func customizeAppearance() {
+        let barTintColor = UIColor(red: 20/255, green: 160/255, blue: 160/255, alpha: 1)
+        UISearchBar.appearance().barTintColor = barTintColor
+        window?.tintColor = UIColor(red: 10/255, green: 80/255, blue: 80/255, alpha: 1)
+    }
 }
 
