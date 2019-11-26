@@ -17,6 +17,7 @@
 		6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0EC238AF73000475689 /* SearchResultCell.xib */; };
 		6F20E0EF238AFD2E00475689 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */; };
 		6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0F0238B022400475689 /* NothingFoundCell.xib */; };
+		6F80CB0D238D4E1E00D596AE /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6F20E0EC238AF73000475689 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		6F20E0F0238B022400475689 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6F20E0DC238A95D300475689 /* Main.storyboard */,
 				6F20E0EC238AF73000475689 /* SearchResultCell.xib */,
 				6F20E0F0238B022400475689 /* NothingFoundCell.xib */,
+				6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */,
 				6F20E0DF238A95D600475689 /* Assets.xcassets */,
 				6F20E0E1238A95D600475689 /* LaunchScreen.storyboard */,
 				6F20E0E4238A95D600475689 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				6F20E0E3238A95D600475689 /* LaunchScreen.storyboard in Resources */,
 				6F20E0E0238A95D600475689 /* Assets.xcassets in Resources */,
+				6F80CB0D238D4E1E00D596AE /* LoadingCell.xib in Resources */,
 				6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */,
 				6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */,
 				6F20E0DE238A95D300475689 /* Main.storyboard in Resources */,
