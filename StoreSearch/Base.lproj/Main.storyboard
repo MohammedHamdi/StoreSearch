@@ -23,25 +23,15 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="lOq-Bl-otH"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sDv-D1-dDT">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <subviews>
-                                    <searchBar contentMode="redraw" placeholder="App name, artist, song, album, e-book" id="VTd-pn-wKR">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="BYZ-38-t0r" id="oOE-KH-pJF"/>
-                                        </connections>
-                                    </searchBar>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="gOv-a1-AQb"/>
-                                </constraints>
-                            </view>
+                            <searchBar contentMode="redraw" placeholder="App name, artist, song, album, e-book" translatesAutoresizingMaskIntoConstraints="NO" id="D4q-8b-DmS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JBk-tq-7Ad"/>
+                                </connections>
+                            </searchBar>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atX-pl-sKc">
-                                <rect key="frame" x="0.0" y="44" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="56" width="320" height="44"/>
                                 <items>
                                     <navigationItem id="iDF-AX-Ydk">
                                         <nil key="title"/>
@@ -64,21 +54,21 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sDv-D1-dDT" secondAttribute="trailing" id="FMU-pn-Uww"/>
+                            <constraint firstItem="atX-pl-sKc" firstAttribute="top" secondItem="D4q-8b-DmS" secondAttribute="bottom" id="0Bu-rM-hO2"/>
                             <constraint firstItem="U7O-Jy-Dpy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="L1l-8d-bZ7"/>
                             <constraint firstItem="U7O-Jy-Dpy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Mnx-H5-oUy"/>
                             <constraint firstItem="atX-pl-sKc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sfd-vL-Qdf"/>
                             <constraint firstItem="U7O-Jy-Dpy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xcx-Z2-vND"/>
+                            <constraint firstItem="D4q-8b-DmS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y6O-E1-LOg"/>
                             <constraint firstItem="atX-pl-sKc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YyY-SJ-St7"/>
-                            <constraint firstItem="sDv-D1-dDT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="djQ-N0-e5q"/>
-                            <constraint firstItem="sDv-D1-dDT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="j77-2e-K6h"/>
-                            <constraint firstItem="atX-pl-sKc" firstAttribute="top" secondItem="sDv-D1-dDT" secondAttribute="bottom" id="nEi-Uc-wgs"/>
+                            <constraint firstItem="D4q-8b-DmS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aDe-Nn-BWy"/>
                             <constraint firstItem="U7O-Jy-Dpy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nrs-EU-qAP"/>
+                            <constraint firstItem="D4q-8b-DmS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vIb-RV-GGo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="searchBar" destination="VTd-pn-wKR" id="dy8-sp-Bk4"/>
+                        <outlet property="searchBar" destination="D4q-8b-DmS" id="The-jh-7vM"/>
                         <outlet property="segmentedControl" destination="7Mn-A9-pih" id="wdB-AC-e41"/>
                         <outlet property="tableView" destination="U7O-Jy-Dpy" id="ccM-lq-Cge"/>
                     </connections>
