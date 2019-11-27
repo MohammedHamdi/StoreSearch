@@ -22,6 +22,9 @@ class SearchResultCell: UITableViewCell {
         let selectedView = UIView(frame: CGRect.zero)
         selectedView.backgroundColor = UIColor(red: 20/255, green: 160/255, blue: 160/255, alpha: 0.5)
         selectedBackgroundView = selectedView
+        
+        nameLabel.adjustsFontForContentSizeCategory = true
+        artistNameLabel.adjustsFontForContentSizeCategory = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
