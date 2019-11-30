@@ -6,7 +6,7 @@
 //  Copyright © 2019 Mohammed Hamdi. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 typealias SearchComplete = (Bool) -> Void
 
@@ -62,7 +62,7 @@ class Search {
     func performSearch(for text: String, category: Category, completion: @escaping SearchComplete) {
         if !text.isEmpty {
             dataTask?.cancel()
-            
+
             state = .loading
             
             let url = iTunesURL(searchText: text, category: category)

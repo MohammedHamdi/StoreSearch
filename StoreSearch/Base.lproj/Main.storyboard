@@ -35,7 +35,7 @@
                                 <items>
                                     <navigationItem id="iDF-AX-Ydk">
                                         <nil key="title"/>
-                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="7Mn-A9-pih">
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="7Mn-A9-pih">
                                             <rect key="frame" x="134" y="0.0" width="300" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WHd-ah-OvV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="138"/>
+            <point key="canvasLocation" x="945" y="474"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="dcv-eH-S62">
@@ -234,15 +234,19 @@
                     <connections>
                         <outlet property="pageControl" destination="G8z-Ge-WKi" id="UgW-8c-I8s"/>
                         <outlet property="scrollView" destination="hEe-48-ddr" id="kZH-Qg-8zu"/>
+                        <segue destination="lxH-QE-QRH" kind="presentation" identifier="ShowDetail" id="Vo4-FG-YHD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uxh-qJ-5y5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1761.9718309859154" y="136.875"/>
+            <point key="canvasLocation" x="131" y="966"/>
         </scene>
     </scenes>
     <resources>
         <image name="CloseButton" width="15" height="15"/>
         <image name="PriceButton" width="11" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vo4-FG-YHD"/>
+    </inferredMetricsTieBreakers>
 </document>
