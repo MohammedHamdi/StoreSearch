@@ -15,9 +15,7 @@
 		6F20E0EB238AC49400475689 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20E0EA238AC49400475689 /* SearchResult.swift */; };
 		6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0EC238AF73000475689 /* SearchResultCell.xib */; };
 		6F20E0EF238AFD2E00475689 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */; };
-		6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F20E0F0238B022400475689 /* NothingFoundCell.xib */; };
 		6F5D0391238D955F00CF3592 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D0390238D955F00CF3592 /* UIImageView+DownloadImage.swift */; };
-		6F80CB0D238D4E1E00D596AE /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */; };
 		6FF963A5238E8B7400765682 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963A4238E8B7400765682 /* DetailViewController.swift */; };
 		6FF963A7238E8F9400765682 /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963A6238E8F9400765682 /* DimmingPresentationController.swift */; };
 		6FF963A9238EC3F400765682 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963A8238EC3F400765682 /* GradientView.swift */; };
@@ -26,6 +24,8 @@
 		6FF963AF238FEEE300765682 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963AE238FEEE300765682 /* LandscapeViewController.swift */; };
 		6FF963B123900BDE00765682 /* FadeOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963B023900BDE00765682 /* FadeOutAnimationController.swift */; };
 		6FF963B32392862A00765682 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963B22392862A00765682 /* Search.swift */; };
+		6FF963B423943D7400765682 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF963B623943D7400765682 /* NothingFoundCell.xib */; };
+		6FF963B8239440B100765682 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF963BA239440B100765682 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,7 @@
 		6F20E0EA238AC49400475689 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		6F20E0EC238AF73000475689 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
-		6F20E0F0238B022400475689 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		6F5D0390238D955F00CF3592 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
-		6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		6FF963A4238E8B7400765682 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6FF963A6238E8F9400765682 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
 		6FF963A8238EC3F400765682 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -50,6 +48,11 @@
 		6FF963AE238FEEE300765682 /* LandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
 		6FF963B023900BDE00765682 /* FadeOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutAnimationController.swift; sourceTree = "<group>"; };
 		6FF963B22392862A00765682 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		6FF963B523943D7400765682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NothingFoundCell.xib; sourceTree = "<group>"; };
+		6FF963B723943E1100765682 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = nl.lproj/NothingFoundCell.xib; sourceTree = "<group>"; };
+		6FF963B9239440B100765682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoadingCell.xib; sourceTree = "<group>"; };
+		6FF963BC239440E100765682 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LoadingCell.strings; sourceTree = "<group>"; };
+		6FF963BE2394435300765682 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +101,8 @@
 				6F20E0EA238AC49400475689 /* SearchResult.swift */,
 				6F20E0DC238A95D300475689 /* Main.storyboard */,
 				6F20E0EC238AF73000475689 /* SearchResultCell.xib */,
-				6F20E0F0238B022400475689 /* NothingFoundCell.xib */,
-				6F80CB0C238D4E1E00D596AE /* LoadingCell.xib */,
+				6FF963B623943D7400765682 /* NothingFoundCell.xib */,
+				6FF963BA239440B100765682 /* LoadingCell.xib */,
 				6F20E0DF238A95D600475689 /* Assets.xcassets */,
 				6F20E0E4238A95D600475689 /* Info.plist */,
 			);
@@ -148,6 +151,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = 6F20E0CA238A95D300475689;
 			productRefGroup = 6F20E0D4238A95D300475689 /* Products */;
@@ -165,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F20E0E0238A95D600475689 /* Assets.xcassets in Resources */,
-				6F80CB0D238D4E1E00D596AE /* LoadingCell.xib in Resources */,
+				6FF963B8239440B100765682 /* LoadingCell.xib in Resources */,
 				6F20E0ED238AF73000475689 /* SearchResultCell.xib in Resources */,
-				6F20E0F1238B022400475689 /* NothingFoundCell.xib in Resources */,
+				6FF963B423943D7400765682 /* NothingFoundCell.xib in Resources */,
 				6F20E0DE238A95D300475689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,8 +207,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				6F20E0DD238A95D300475689 /* Base */,
+				6FF963BE2394435300765682 /* nl */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF963B623943D7400765682 /* NothingFoundCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF963B523943D7400765682 /* en */,
+				6FF963B723943E1100765682 /* nl */,
+			);
+			name = NothingFoundCell.xib;
+			sourceTree = "<group>";
+		};
+		6FF963BA239440B100765682 /* LoadingCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF963B9239440B100765682 /* Base */,
+				6FF963BC239440E100765682 /* nl */,
+			);
+			name = LoadingCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -214,6 +237,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -274,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
