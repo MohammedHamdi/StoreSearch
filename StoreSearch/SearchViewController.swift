@@ -45,13 +45,20 @@ class SearchViewController: UIViewController {
     override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
         super.willTransition(to: newCollection, with: coordinator)
         
-        switch newCollection.verticalSizeClass {
-        case .compact:
-            showLandscape(with: coordinator)
-        case .regular, .unspecified:
-            hideLandscape(with: coordinator)
-        @unknown default:
-            hideLandscape(with: coordinator)
+        let rect = UIScreen.main.bounds
+        if (rect.width == 736 && rect.height == 414) || (rect.width == 414 && rect.height == 736) || (rect.width == 896 && rect.height == 414) || (rect.width == 414 && rect.height == 896) {
+            if presentedViewController != nil {
+                dismiss(animated: true, completion: nil)
+            }
+        } else if UIDevice.current.userInterfaceIdiom != .pad {
+            switch newCollection.verticalSizeClass {
+            case .compact:
+                showLandscape(with: coordinator)
+            case .regular, .unspecified:
+                hideLandscape(with: coordinator)
+            @unknown default:
+                hideLandscape(with: coordinator)
+            }
         }
     }
     

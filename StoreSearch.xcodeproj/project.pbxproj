@@ -28,6 +28,7 @@
 		6FF963B8239440B100765682 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF963BA239440B100765682 /* LoadingCell.xib */; };
 		6FF963C12396653D00765682 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FF963C32396653D00765682 /* Localizable.strings */; };
 		6FF963C72396728D00765682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FF963C92396728D00765682 /* InfoPlist.strings */; };
+		6FF963CC2397D2E200765682 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF963CB2397D2E200765682 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		6FF963C42396677600765682 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6FF963C82396728D00765682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FF963CA2396729500765682 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FF963CB2397D2E200765682 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				6F20E0DA238A95D300475689 /* SearchViewController.swift */,
 				6FF963AE238FEEE300765682 /* LandscapeViewController.swift */,
 				6FF963A4238E8B7400765682 /* DetailViewController.swift */,
+				6FF963CB2397D2E200765682 /* MenuViewController.swift */,
 				6F20E0EE238AFD2E00475689 /* SearchResultCell.swift */,
 				6FF963A6238E8F9400765682 /* DimmingPresentationController.swift */,
 				6FF963AA238ED32400765682 /* BounceAnimationController.swift */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F20E0DB238A95D300475689 /* SearchViewController.swift in Sources */,
+				6FF963CC2397D2E200765682 /* MenuViewController.swift in Sources */,
 				6F20E0D7238A95D300475689 /* AppDelegate.swift in Sources */,
 				6F5D0391238D955F00CF3592 /* UIImageView+DownloadImage.swift in Sources */,
 				6FF963A7238E8F9400765682 /* DimmingPresentationController.swift in Sources */,
